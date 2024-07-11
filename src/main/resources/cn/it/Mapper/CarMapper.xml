@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.it.mapper.CarMapper">
+    <select id="selectOne" resultType="car">
+        select * from tb_car where id=#{id}
+    </select>
+    <select id="findAll" resultType="Car">
+        select * from tb_car
+    </select>
+    <select id="findGoodsById" resultType="goods">
+        select  * from tb_car where
+    </select>
+</mapper>
