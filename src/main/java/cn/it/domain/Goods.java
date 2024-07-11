@@ -14,6 +14,7 @@ public class Goods {
     private String norms;
     private Integer stock;
     private String description;
+
     private Integer isShow;
     private Date createTime;
     private Date updateTime;
